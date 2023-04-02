@@ -1,0 +1,54 @@
+body,
+html {
+    margin: 0;
+    font-family: 'Montserrat';
+    background: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+#bg_yellow {
+    background-color: #D9EF0C;
+}
+
+#space_card {
+    text-align: -webkit-center;
+    padding: 0rem 10rem 0rem 10rem;
+}
+
+.no-border {
+    border-color: #ffffff;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #ffffff;
+    box-shadow: none;
+    background-color: #000000;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.btn_lorem {
+    color: #000000;
+    float: left;
+    padding: 0.25rem 2rem 0.25rem 2rem;
+    border-radius: 20px;
+    background: linear-gradient(217deg, #DEE34B, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #D9EF0C, rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, #87A30D, rgba(0, 0, 255, 0) 70.71%);
+}
+
+
+.pad_x {
+    padding-left: 8rem;
+  }
+
+  
+.card-text{
+    line-height: 1.2;
+}
